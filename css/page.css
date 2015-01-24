@@ -1,0 +1,6 @@
+@charset "UTF-8";
+/* CSS Document */
+.bigBox{ width:970px; margin:0 auto; }
+.autoBox{width:940px; padding-left:14px; padding-right:16px; padding-top:17px; position:relative; /*需要实现自适应*/ overflow:hidden;}
+.leftCol{ float:left;}
+.picBox{ border:1px #dddddd solid; border-radius:8px; width:210px; height:140px; padding:4px;}

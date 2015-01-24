@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0; padding:0; font-family:Arial, sans-serif, Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;}
+a{ text-decoration:none;}
+span{ font-style:italic;}
+img{ display:block; border:none;}
+.bigBox{ width:1170px; margin:0 auto; }
+.autoBox{width:1140px; padding-left:14px; padding-right:16px; padding-top:17px; position:relative; /*需要实现自适应*/ overflow:hidden;}
+.itemBox{ width:100px; padding-bottom:28px; font-size:16px;  line-height:28px;  color:red;}
+.itemBox a{display:block; color:#428bca;}
+.rightCol{ width:778px; float:left; padding-right:15px;}
+.leftCol{ width:146px; float:left;}
+.content{ opacity:1; width:auto; display:none;}
+.bar{ width:100%; border-top:1px solid #dddddd; padding-bottom:42px; }
+.row{ overflow:hidden;}
+.row .leftCol{ padding:0; width:auto; padding-left:40px; padding-top:10px; padding-right:74px; padding-bottom:50px; }
+.row .rightCol{ width:428px; }
+.row .para{ text-align:justify;}
+.topic{ color:#0bbb63; font-size:18px; color:428bca; }
+.topic span{color:#a0a0a2; font-size:12px; font-style:italic;}
+.topic a{color:#0bbb63; font-size:18px; color:428bca;}
+.location{ color:#1df294; font-size:15px; font-style:italic;}
+.blogTime{ color:#333333; font-size:14px; font-style:italic;}
+.likeBox{ overflow:hidden; padding-top:2px; }
+.likeBox a{ display:block;  width:16px;}
+.addOne{ opacity:1; position:absolute; }
+.btnBox{ overflow:hidden; }
+.btnBox a{float:right; width:28px; height:28px; line-height:28px; text-align:center; border:#dddddd 1px solid; color:#428bca;}
+.btnBackward{ background-image:; background-repeat:no-repeat;  border-top-left-radius:5px; border-bottom-left-radius:5px; !background-color:red;}
+.btnForward{ background-image:; background-repeat:no-repeat; border-top-right-radius:5px; border-bottom-right-radius:5px; !background-color:red;}
+.btn{ border:1px solid green; line-height:28px; }
+.picBox{ border:1px #dddddd solid; border-radius:8px; width:210px; height:140px; padding:4px;}
+.btnBox .curBtn{ background-color:#428bca; border:#428bca 1px solid; color:white;}
+.fa span{color:#1df294; display:block; line-height:18px; float:right; }
+.btnBox a:hover{ cursor:pointer;}
+.itemBox a:hover{ color:#800c6b;}
